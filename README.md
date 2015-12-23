@@ -4,12 +4,13 @@ A smart configuration library for Java
 
 ### Using
 
-Default config file: 
+Default config file `config.ini`, content of config file like: 
 
 ```code
-filename: config.ini
-
 [section_name]
+config_parameter=config_value
+
+[another_section_name]
 config_parameter=config_value
 ```
 
